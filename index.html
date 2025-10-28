@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Esuyawkal — Portfolio</title>
+  <link rel="stylesheet" href="styles .css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home">Esuyawkal</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="hamburger"></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero container fade-in">
+      <div class="hero-left">
+        <img src="image.png" alt="Esuyawkal" class="hero-photo" />
+      </div>
+      <div class="hero-right">
+        <h1 class="hero-title"><span>I'm </span>Esuyawkal</h1>
+        <h2 class="hero-subtitle">Future FullStack Developer</h2>
+        <p class="hero-intro">
+          Passionate about building efficient, reliable web apps. Experienced with object-oriented programming,
+          data structures, and database design. Seeking opportunities to learn, contribute, and grow as a developer.
+        </p>
+        <div class="hero-actions-centered">
+          <a class="btn ghost" href="#projects">View Projects</a>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="about container fade-in section-spaced">
+      <div class="about-left">
+        <img src="image.png" alt="Esuyawkal" class="about-photo" />
+      </div>
+      <div class="about-right">
+        <h2 id="abme">About Me</h2>
+        <p>
+          curently studing computer science at University of Gondar with strong focus to become professional Fullstack developer with a foundation in object-oriented programming and algorithmic thinking.
+          I build acadamic projects to practice project patterns, data structures, and database integration. I enjoy learning new technologies and collaborating on meaningful projects.
+         </p>
+        <ul class="about-list">
+          <li>Languages: Java, javascript, SQL</li>
+          <li>Focus: OOP, React js, Algorithms, Databases</li>
+          <li>Interests: web apps, backend, frontend development</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="skills" class="skills container fade-in section-spaced">
+      <h2 id="skilltext">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill">Java</div>
+        <div class="skill">C++</div>
+        <div class="skill">SQL / Oracle</div>
+        <div class="skill">Data Structures & Algorithms</div>
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+         <div class="skill">JS</div>
+      </div>
+    </section>
+
+  
+    <section id="projects" class="projects container fade-in section-spaced">
+      <h2 id="protext">Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-icon" aria-hidden="true">
+         
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="12" cy="12" r="9" stroke="url(#g1)" stroke-width="1.5"/>
+              <path d="M8 12c0-2.209 3.582-4 8-4" stroke="url(#g1)" stroke-width="1.4" stroke-linecap="round"/>
+              <defs><linearGradient id="g1" x1="0" x2="1"><stop offset="0" stop-color="#2f7bff"/><stop offset="1" stop-color="#1fb6ff"/></linearGradient></defs>
+            </svg>
+          </div>
+          <div class="project-content">
+            <h4>Banking System</h4>
+            <p class="muted">Java • Object-Oriented Programming</p>
+            <p>Console-based banking system demonstrating OOP design, account management, transactions, and file persistence.</p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon" aria-hidden="true">
+           
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2L2 7l10 5 10-5-10-5z" stroke="url(#g2)" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M2 17l10 5 10-5" stroke="url(#g2)" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+              <defs><linearGradient id="g2" x1="0" x2="1"><stop offset="0" stop-color="#2f7bff"/><stop offset="1" stop-color="#1fb6ff"/></linearGradient></defs>
+            </svg>
+          </div>
+          <div class="project-content">
+            <h4>Student Grading System</h4>
+            <p class="muted">C++</p>
+            <p>Grade calculation, student records management, and reporting system implemented in C++ with robust input handling.</p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon" aria-hidden="true">
+            
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2l7 4v6c0 5-4 9-7 10-3-1-7-5-7-10V6l7-4z" stroke="url(#g3)" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+              <defs><linearGradient id="g3" x1="0" x2="1"><stop offset="0" stop-color="#2f7bff"/><stop offset="1" stop-color="#1fb6ff"/></linearGradient></defs>
+            </svg>
+          </div>
+          <div class="project-content">
+            <h4>Crime Management System</h4>
+            <p class="muted">Advanced C++ • Data Structures & Algorithms</p>
+            <p>Complex data handling and search algorithms to manage cases, suspects, and investigations efficiently.</p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon" aria-hidden="true">
+           
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M21 3L11 13" stroke="url(#g4)" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M21 13L11 3" stroke="url(#g4)" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+              <defs><linearGradient id="g4" x1="0" x2="1"><stop offset="0" stop-color="#2f7bff"/><stop offset="1" stop-color="#1fb6ff"/></linearGradient></defs>
+            </svg>
+          </div>
+          <div class="project-content">
+            <h4>Pharmacy System</h4>
+            <p class="muted">Oracle Database</p>
+            <p>Pharmacy inventory and transaction system utilizing Oracle DB for reliable storage, queries, and reporting.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+ 
+    <section id="contact" class="contact container fade-in section-spaced">
+      <h2 id="contacttext">Contact</h2>
+      <form id="contactForm" class="contact-form" novalidate>
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input id="name" name="name" required type="text" placeholder="Your name" />
+        </div>
+
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input id="email" name="email" required type="email" placeholder="you@example.com" />
+        </div>
+
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required placeholder="Write a message..."></textarea>
+        </div>
+
+        <div class="form-actions">
+          <button type="submit" class="btn primary">Send</button>
+        </div>
+      </form>
+
+      <div class="contact-socials">
+       <div class="findme"> 
+<p class="muted">Or find me on</p></div>
+       <div class="social-icons">
+     <a id="githb" href="https://github.com/Esuyawkal1" class="social github" target="_blank"><i class="fab fa-github"></i></a>
+    <a id="tiktalk" href="https://tiktok.com/@isu_yawkal" class="social tiktok" target="_blank"><i class="fab fa-tiktok"></i></a>
+    <a id="teleg" href="https://telegram.com/@yersukal" class="social telegram" target="_blank"><i class="fab fa-telegram"></i></a>
+    <a id="linkdn" href="https//www.linkedin.com/in/esuyawkal-fenatahun-993615386" class="social linkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    <a id="utube" href="https://youtube.com/@IVO_Academy" class="social youtube" target="_blank"><i class="fab fa-youtube"></i></a>
+  </div>
+        </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Esuyawkal</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
